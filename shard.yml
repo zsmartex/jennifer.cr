@@ -4,17 +4,17 @@ version: 0.10.0
 authors:
   - Roman Kalnytskyi <moranibaca@gmail.com>
 
-crystal: 0.36.1
+crystal: ">=0.36.1, < 2.0.0"
 
 license: MIT
 
 development_dependencies:
   mysql:
     github: crystal-lang/crystal-mysql
-    version: "= 0.11.2"
+    version: "= 0.13.0"
   pg:
     github: will/crystal-pg
-    version: "= 0.21.1"
+    version: "= 0.23.2"
   factory:
     github: imdrasil/factory
     version: "~> 0.1.4"
@@ -31,7 +31,7 @@ development_dependencies:
 dependencies:
   inflector:
     github: phoffer/inflector.cr
-    version: "= 0.1.8"
+    version: "= 1.0.0"
   ifrit:
     github: imdrasil/ifrit
     version: "= 0.1.2"
